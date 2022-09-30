@@ -10,5 +10,15 @@
 	hello world
 	<br>
 	한글테스트
+	<br>
+	<%= new java.util.Date() %>
+	
+	<%
+		for(int i=1;i<=6;i++){
+			out.print("<h"+i+">");
+			out.print("자바로 동적으로 만들어진 내용");
+			out.print("<h"+i+">");
+		}
+	%>
 </body>
 </html>
